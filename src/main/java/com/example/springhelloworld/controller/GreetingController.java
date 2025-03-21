@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class GreetingController {
     
-    @GetMapping("/greet")
+    @GetMapping("/greeting")
     public String greet(Model model) {
         model.addAttribute("message", "Ласкаво просимо до Spring Boot!");
         return "greeting";

@@ -32,7 +32,7 @@
 3. Виконайте команду:
 
 ```bash
-mvn spring:boot run
+mvn spring-boot:run
 ```
 
 ## Доступні ендпоінти
